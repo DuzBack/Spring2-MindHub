@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+    <title>Raffle - MUSE MIND</title>
+</head>
+<section>
+<header id="headcontent">
+    <a href="/index.html" id="abutton">Home</a>
+    <a href="./aboutUs.html" id="abutton">About Us</a>
+    <a href="./contact.html" id="abutton">Contact</a>
+    <a href="./information.html" id="abutton">More Information</a>
+    <a href="./benefitsTips.html" id="abutton">Benefits and Tips</a>
+    <a href="./raffle.html" id="abutton">Raffle</a>
+<img src="../images/logo.png" alt="Muse Mind Logotype" id="logo">
+</section>
+<div class="navcontainer">
+<h1>Raffle</h1>
+<img src="../images/raffle.png" alt="button">
+</div>
+</header>
+<body>
+    <div>
+        <h3 class="textraffle">You can collaborate to hold and exhibition event and participate in a raffle to win an easel.</h3>
+    </div>
+
+    <div class="flex-container6">
+        <div class="flex-item">
+            <iframe class="iframemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83970.52209430098!2d-118.2356964471609!3d34.04048086005291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1692302470446!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+   
+
+        <div class="flex-item">
+            <form class="formulario" action="../pages/show_data.html" method="get">
+            <fieldset>
+                
+                <label for="Nombre">Fist Name:</label>
+                <input type="text" id="namen" name="name" >
+                </fieldset>
+                <fieldset>
+                <label for="Nombre">Last Name:</label>
+                <input type="text" id="namel" name="namel" >
+
+
+
+                </fieldset>
+                
+                
+                <legend>Payment Options</legend>
+                    <fieldset>
+                    <label for="credit">Cash</label>
+                    <input type="radio" id="cash" name="payment">
+                </fieldset>
+                    <fieldset>
+                    <label for="credit">Credit</label>
+                    <input type="radio" id="credit" name="payment">
+                </fieldset>
+                    <fieldset>
+                    <label for="credit">Debit</label>
+                    <input type="radio" id="debit" name="payment">
+                </fieldset>
+                <fieldset>
+                    <legend>Choose Date</legend>
+                    <label for="theme">Debit</label>
+                    <input type="date" id="theme" name="theme">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Choose Theme Art</legend>
+                    <label for="lang">Theme</label>
+        <select name="themes" id="themesflex">
+        <option value="theme">Art Theme</option>
+        <option value="theme">Surreal art</option>
+        <option value="theme">Abstract art</option>
+        <option value="theme">Expressionism</option>
+      
+      </select>
+                </fieldset>
+
+                <fieldset id="textarea">
+                    <legend>Dejanos algun comentario</legend>
+                </fieldset>
+            <fieldset>
+                    <label for="text" id="comment"></label>
+                    <input type="textarea" id="comentario" name="comentario">
+                </fieldset>
+
+                
+                <fieldset>
+                    <input type="submit" value="Enviar">
+                </fieldset>
+                
+              
+                </fieldset>
+                </form>
+        </div>
+    </div>
+    <footer class="footercontainer">
+        <h3>- Created by Cristian Soler -  </h3>
+    </footer>
+</body>
+</html>
